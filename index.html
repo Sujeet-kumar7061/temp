@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Manas Education Centre | Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="loaderstyle.css" />
+    <link rel="stylesheet" type="text/css" href="btnstyle.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="images/favicon-16x16.png"
+      type="images/png"
+      sizes="16x16"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body onload="preloader()" style="overflow: visible">
+    <div id="particles-js"></div>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+
+    <!--<section class="preloaderBox"></section>-->
+    <div class="preloaderBox">
+      <div class="body">
+        <span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+        <div class="base">
+          <span></span>
+          <div class="face"></div>
+         </div>
+      </div>
+      <div class="longfazers">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <h1>Loading</h1>
+    </div>
+
+    <div class="container">
+      <div class="navbar back">
+        <div class="logo">
+          <a href="#"><img src="images/logo.png" /></a>
+        </div>
+        <a class="openBtn" onclick="toggleMenu()"></a>
+        <ul>
+          <li class="btn">
+            <a href="index.html">
+              <span class="left"></span>
+              <span class="top"></span>
+              <span class="right"></span>
+              <span class="bottom"></span>
+              HOME
+            </a>
+          </li>
+          <li class="btn">
+            <a href="admission.html">
+              <span class="left"></span>
+              <span class="top"></span>
+              <span class="right"></span>
+              <span class="bottom"></span>
+              ADMISSIONS
+            </a>
+          </li>
+          <li class="btn">
+            <a href="results.html">
+              <span class="left"></span>
+              <span class="top"></span>
+              <span class="right"></span>
+              <span class="bottom"></span>
+              RESULTS
+            </a>
+          </li>
+          <li class="btn">
+            <a href="gallery.html">
+              <span class="left"></span>
+              <span class="top"></span>
+              <span class="right"></span>
+              <span class="bottom"></span>
+              GALLERY
+            </a>
+          </li>
+          <li class="btn">
+            <a href="about.html">
+              <span class="left"></span>
+              <span class="top"></span>
+              <span class="right"></span>
+              <span class="bottom"></span>
+              ABOUT US
+            </a>
+          </li>
+        </ul>
+      </div>
+      <section>
+        <div class="content">
+          <h1>Manas Education Centre</h1>
+          <h3>
+            Manas Education Centre Preprare for IIT under the Guidance of IITians.
+          </h3>
+        </div>
+        <div class="slideshow">
+          <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img src="images/slideshow_1.jpg" style="width: 100%" />
+            </div>
+            <div class="mySlides fade">
+              <img src="images/slideshow_2.jpg" style="width: 100%" />
+            </div>
+            <div class="mySlides fade">
+              <img src="images/slideshow_3.jpg" style="width: 100%" />
+            </div>
+            <div class="mySlides fade">
+              <img src="images/slideshow_4.jpg" style="width: 100%" />
+            </div>
+            <div class="mySlides fade">
+              <img src="images/slideshow_5.jpg" style="width: 100%" />
+            </div>
+            <div class="mySlides fade">
+              <img src="images/slideshow_6.jpg" style="width: 100%" />
+            </div>
+            <div class="mySlides fade">
+              <img src="images/slideshow_7.jpg" style="width: 100%" />
+            </div>
+            <div class="mySlides fade">
+              <img src="images/slideshow_1.jpg" style="width: 100%" />
+            </div>
+          </div>
+        </div>
+      </section>
+   <!--  <div class="results">
+        <div class="testimonials">
+          <h1>Our Results</h1>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="layer"></div>
+                  <div class="content">
+                    <p>
+                      JEE ADV - AIR 2371<br />
+                      JEE MAIN - AIR 12379<br />
+                      MHT-CET - 98.88<br />
+                      HSC - 89%<br />
+                      <br />
+                    </p>
+                    <div class="imgBox">
+                      <img src="results_2020/anirudha_bajaj.jpg" />
+                    </div>
+                    <div class="details">
+                      <h2>ANIRUDHA BAJAJ<br /><span>IIT KGP</span></h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="layer"></div>
+                  <div class="content">
+                    <p>
+                      JEE ADV - SC 746 <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                    <div class="imgBox">
+                      <img src="results_2020/pritee.jpg" />
+                    </div>
+                    <div class="details">
+                      <h2 style="text-transform: uppercase">
+                        Pritee Nagamwad<br /><span>IIT KGP</span>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="layer"></div>
+                  <div class="content">
+                    <p>
+                      JEE ADV - SC 2536 <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                    <div class="imgBox">
+                      <img src="results_2020/sanket_athawale.jpg" />
+                    </div>
+                    <div class="details">
+                      <h2 style="text-transform: uppercase">
+                        sanket athawale<br /><span>IIT KGP</span>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="layer"></div>
+                  <div class="content">
+                    <p>
+                      JEE ADV - SC 3248 <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                    <div class="imgBox">
+                      <img src="results_2020/sangharsh_kuldipkar.jpg" />
+                    </div>
+                    <div class="details">
+                      <h2 style="text-transform: uppercase">
+                        sangharsh kuldipkar<br /><span>IIT KGP</span>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="layer"></div>
+                  <div class="content">
+                    <p>
+                      JEE ADV - SC 3315 <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                    <div class="imgBox">
+                      <img src="results_2020/nikhil_gacche.jpg" />
+                    </div>
+                    <div class="details">
+                      <h2 style="text-transform: uppercase">
+                        nikhil gacche<br /><span>IIT KGP</span>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="layer"></div>
+                  <div class="content">
+                    <p>
+                      JEE ADV - AIR 29342 <br />
+                      JEE ADV - SC 7232 <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                    <div class="imgBox">
+                      <img src="results_2020/vivek_nilkanthwar.jpg" />
+                    </div>
+                    <div class="details">
+                      <h2 style="text-transform: uppercase">
+                        vivek nilkanthwar<br /><span>IIT KGP</span>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="layer"></div>
+                  <div class="content">
+                    <p>
+                      JEE ADV - AIR 30038 <br />
+                      JEE ADV - SC 7437 <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                    <div class="imgBox">
+                      <img src="results_2020/shekhar_venkatpurwar.jpg" />
+                    </div>
+                    <div class="details">
+                      <h2 style="text-transform: uppercase">
+                        shekhar venkatpurwar<br /><span>IIT KGP</span>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="layer"></div>
+                  <div class="content">
+                    <p>
+                      JEE ADV - OBC 8777 <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                    <div class="imgBox">
+                      <img src="results_2020/saurabh.jpg" />
+                    </div>
+                    <div class="details">
+                      <h2 style="text-transform: uppercase">
+                        Saurabh Kamjalge<br /><span>IIT KGP</span>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="layer"></div>
+                  <div class="content">
+                    <p>
+                      JEE ADV - AIR 23069 <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                    <div class="imgBox">
+                      <img src="results_2020/gauri_debadwar.jpg" />
+                    </div>
+                    <div class="details">
+                      <h2 style="text-transform: uppercase">
+                        Gauri Debadwar<br /><span>IIT KGP</span>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="layer"></div>
+                  <div class="content">
+                    <p>
+                      JEE ADV - SC 2607 <br />
+                      <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                    <div class="imgBox">
+                      <img src="results_2020/vaibhav_savate.jpg" />
+                    </div>
+                    <div class="details">
+                      <h2 style="text-transform: uppercase">
+                        vaibhav savate<br /><span>IIT KGP</span>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="layer"></div>
+                  <div class="content">
+                    <p>
+                      JEE ADV - AIR 30823 <br />
+                      JEE ADV - SC 948 <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                    <div class="imgBox">
+                      <img src="results_2020/rahul_sawant.jpg" />
+                    </div>
+                    <div class="details">
+                      <h2 style="text-transform: uppercase">
+                        Rahul sawant<br /><span>IIT KGP</span>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="layer"></div>
+                  <div class="content">
+                    <p>
+                      JEE ADV - AIR 19899 <br />
+                      JEE ADV - SC 479 <br />
+                      <br />
+                      <br />
+                      <br />
+                    </p>
+                    <div class="imgBox">
+                      <img src="results_2020/mihir_latkar.jpg" />
+                    </div>
+                    <div class="details">
+                      <h2 style="text-transform: uppercase">
+                        Mihir Lathkar<br /><span>IIT KGP</span>
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>--> 
+      <div class="about">
+        <h1>Manas Education Centre</h1>
+        <p>
+          "We provide classroom program for IIT JEE preparation in pattern proof mode. Our team of IITian faculties are dedicated
+          and devoted of highest caliber with a genuine concern for building student's future. Our scientific approach has produced
+          highest Success ratio in JEE Main & JEE Advanced across all over India."
+        </p>
+        <span class="btn">
+          <a href="about.html">
+            <span class="left"></span>
+            <span class="top"></span>
+            <span class="right"></span>
+            <span class="bottom"></span>
+            READ MORE
+          </a>
+        </span>
+      </div>
+      <div class="feedback">
+        <h1>What our students have to say:</h1>
+        <div class="cardbox">
+          <div class="card">
+            <div class="imgBox">
+              <img src="images/profile1.jpg" />
+            </div>
+            <div class="content">
+              <p>
+                Myself Aman Kumar, an alumni of Manas Education Centre. 
+                I completed my preparation for the JEE examination from here only and 
+                successfully cracked the same in 2019, acquiring AIR 1980 and OBC rank 273. 
+                I am currently pursuing my graduation from one of the best Institute of India,
+                INDIAN INSTITUTE OF TECHNOLOGY, BOMBAY under mechanical department. 
+                And all these things were only possible because of our Manas Education Centre and it's faculties, 
+                who made me able to achieve these.
+              </p>
+              <h4>Aman Kumar<br /><span>IIT Bombay</span></h4>
+            </div>
+          </div>
+          <div class="card">
+            <div class="imgBox">
+              <img src="images/profile2.jpg" />
+            </div>
+            <div class="content">
+              <p>
+                One of the best descion I made in my life was studying in Manas,
+                Teachers here are more than just teachers, they are here to help you in every phase of 
+                life from preparation to post college. It's been more than 8 years,
+                i still hang around with same friends i made here and still come to same teachers to resolve my doubts.
+                It just they are not sheets and DPP any more.
+              </p>
+              <h4>
+                Ankit Tarway<br /><span
+                  >IIT(ISM), Dhanbad</span
+                >
+              </h4>
+            </div>
+          </div>
+          <div class="card">
+            <div class="imgBox">
+              <img src="images/profile3.jpg" />
+            </div>
+            <div class="content">
+              <p>
+                I have been brought up in Gaya.I wanted to go to Kota for JEE preparation but due to financial issues,
+                I joined MANAS which provided a competing environment needed  for preparation.
+                DPPs , practice sheets , regular doubt clearance and technical alongwith emotional support of faculties 
+                helped me land in a university with almost zero fees for bachelors. I was able to continue my engineering 
+                easily and right now doing a govt job.<br />I really want to thank Manas Education Centre specially pushkar
+                sir for making me such a successful person.
+              </p>
+              <h4>Tarun Kumar<br /><span>Jadavpur University</span></h4>
+            </div>
+          </div>
+          <div class="card">
+            <div class="imgBox">
+              <img src="images/profile4.jpg" />
+            </div>
+            <div class="content">
+              <p>
+                Firstly, I would like to thanks to all teachers of MANAS Team for giving me this opportunity. 
+                I would like to share that what motivated me throughout my journey in MANAS during JEE preparation. 
+                I joined MANAS in 2016. And I can clearly remember that My name used to come in last rows of the result 
+                list of Weekly Tests in 11th . But In Manas, there was a ritual to give Pen as a Reward to First 3 Toppers 
+                of every Test  infront of the class. And that became the motivation for me that someday I would be 
+                receiving that pen infront of the whole class and I started following Pushkar Sir and Dharmendra Sir. 
+                I tried my best to be consistent and revise whatever they used to teach on daily basis. 
+                Their lectures were very helpful in getting more focused and being disciplined. 
+                I am very lucky that they were my teachers. With the help of their guidance, 
+                I got the opportunity to win those pens every week in Tests in 12th and also Secured  AIR - 8090 ( General ) in JEE - Advanced 2018.Currently, I'm working In ADANI Groups. 
+                Thanks MANAS and the Team.
+              </p>
+              <h4>Satyam Kumar <br /><span>NIT Raipur</span></h4>
+            </div>
+          </div>
+          <div class="card">
+            <div class="imgBox">
+              <img src="images/profile6.jpg" />
+            </div>
+            <div class="content">
+              <p>
+                Studied at Diksha Academy, Currently pursuing Batchelor of
+                technology in Indian institute of technology Indore.<br />"Diksha
+                is the best coaching institute for jee preparation. I feel
+                really lucky to be a part of such a great institute. They always
+                motivated me and all other students to work hard and stay
+                focused, that's why I became more disciplined towards my
+                studies.<br />Teachers told us the way to do homework and way to
+                attempt paper so that we can use knowledge effectively.My time
+                at Diksha Academy has been through knowledge, skill,
+                competition, interactions with one of the wisest persons of my
+                life and above all a great experience that made me worthy of
+                getting into IIT.<br />I strongly recommend Diksha Academy for
+                preparation of jee which have excellent teaching."<br />Thank
+                you...
+              </p>
+              <h4>Aboli Dhawale<br /><span>IIT Indore</span></h4>
+            </div>
+          </div>
+          <div class="card">
+            <div class="imgBox">
+              <img src="images/profile7.jpeg" />
+            </div>
+            <div class="content">
+              <p>
+                Studied at Diksha Academy, Currently persuing Batchelor of
+                technology in Indian institute of technology Dhanbad.<br />I am
+                proud that I am a student of Diksha Academy.<br />From the above
+                line you can pretty assume my review about Diksha Academy.I
+                heard about Diksha Academy from my Sanskrit Teacher in 10 th,
+                the coaching which made a small city like this a topic to talk
+                on by producing toppers in various national level examinations.
+                I have studied from Diksha Academy in 2017-2019.It had a very
+                big role in my selection in IIT JEE.They had one of the best
+                teachers. They used to focus on each and every student .They
+                helped a lot to students even after the class were off.<br />We
+                could always meet with our teachers to discuss our doubts and
+                troubles. They have doubt counters running from morning to
+                evening.Even Once the student is at Diksha Academy, they takes
+                care of all the students with some features like Regular
+                Attendance Monitoring, Doubt Counters, Mentorship Programme like
+                Regular Test for self analysis and many more facilities.Summing
+                all it all depends how much you are eager to have your goal
+                completed. For the one with very strong dedication Diksha
+                Academy will serve the purpose best.<br />Thank you....
+              </p>
+              <h4>Aachal Dhole<br /><span>IIT Dhanbad</span></h4>
+            </div>
+          </div>
+          <div class="card">
+            <div class="imgBox">
+              <img src="images/profile5.jpeg" />
+            </div>
+            <div class="content">
+              <p>
+                At Diksha Acadmy, teachers are always available for help and
+                clearing doubts. The best thing is that you can study at Diksha
+                before and after classes. The way of teaching is helpful to cope
+                with CBSE also.
+              </p>
+              <h4>Kedar Pathade<br /><span>IIT BHUBANESHWAR</span></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="contactBox">
+        <div class="contact">
+          <h1>CONTACT US</h1>
+          <br />
+          <a href="mailto:sujeet2052000@gmail.com"
+            ><img src="images/mail.png" /> - sujeet2052000@gmail.com</a
+          ><br />
+          <a href="tel:8809552269"><img src="images/call.png" /> - 8809552269</a
+          ><br />
+          <a href="https://goo.gl/maps/9mGWfZKxzHVSYzdX8" target="blank"
+            ><img src="images/locate.png" /> - Manas Education Centre, PNB Bank, West
+            Nutan Nagar, Gaya, Bihar 823001</a
+          ><br />
+        </div>
+
+        <form class="formBox" id="contactForm">
+          <h1>Leave a message</h1>
+          <div class="input">
+            <input id="sender" type="text" autocomplete="off" required /><br />
+            <label>Name</label>
+          </div>
+          <div class="input">
+            <input
+              id="senderEmail"
+              type="email"
+              autocomplete="off"
+              required
+            /><br />
+            <label>Email</label>
+          </div>
+          <div class="input">
+            <input
+              id="senderPhone"
+              type="tel"
+              autocomplete="off"
+              required
+            /><br />
+            <label>Phone Number</label>
+          </div>
+          <div class="input">
+            <textarea
+              id="message"
+              rows="8"
+              cols="40"
+              autocomplete="off"
+              required
+            ></textarea
+            ><br />
+            <label>Message</label>
+          </div>
+          <input type="submit" name="submit" value="SEND" />
+          <!-- <button type="submit" class="submitBtn">SEND</button> -->
+        </form>
+      </section>
+      <footer>
+        <p>Copyright © 2023 Manas Education Centre. All Rights Reserved.</p>
+        <p>
+          -Developed By
+          <a
+            target="blank"
+            href="http://rohit-bhagat.000webhostapp.com/"
+            style="color: #23be5b; text-decoration: none"
+            >Sujeet Kumar</a
+          >
+        </p>
+      </footer>
+    </div>
+    <a
+      class="image"
+      href="https://api.whatsapp.com/send?phone=+918809552269&text=Hello+sir,+I+checked+Manas+Education+Centre+website+and+want+to+know+more+about+it&source=&data=&app_absent="
+      ><img src="images/whatsappimg.png"
+    /></a>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
